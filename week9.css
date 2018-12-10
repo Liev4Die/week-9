@@ -80,6 +80,18 @@ li.dropdown {
 	margin: 0 auto;
 }
 
+.banner-1:hover{
+	color: #222931;
+}
+
+.banner-2:hover{
+	
+}
+
+.banner-3:hover{
+	
+}
+
 .banner img{
 	width: 300px;
 	padding-top: 60px;
@@ -101,6 +113,149 @@ li.dropdown {
 
 .ribbon h5{
 	position: absolute;
-	left: 700px;
-	top: 1100px;
+	left: 730px;
+	top: 1075px;
+}
+
+.ribbon button{
+	background-color: white	; 
+	border: none;
+	color: black;
+	padding: 12px 40px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 500px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	position: absolute;
+ 	left: 1200px;
+ 	top: 1065px;
+}
+
+#ribbonBTN:hover{
+	background-color: #222931;
+	color: white;
+}
+
+.footerimg{
+	width: 1903px;
+	margin-top: 50px;
+}
+
+.footerbtn1{
+	height: 70px;
+	background-color: yellow;
+	padding: 30px;
+	padding-right: 300px;
+	position: absolute;
+	left: 300px;
+	top: 1480px;
+}
+
+.footerbtn2{
+	height: 70px;
+	background-color: yellow;
+	padding: 30px;
+	padding-right: 300px;
+	position: absolute;
+	left: 740px;
+	top: 1480px;
+}
+
+.footerbtn3{
+	height: 70px;
+	background-color: yellow;
+	padding: 30px;
+	padding-right: 300px;
+	position: absolute;
+	left: 1180px;
+	top: 1480px;
+}
+
+.footer1 h2{
+	position: absolute;
+	left: 430px;
+	top: 1500px;	
+}
+
+.footer1 h4{
+	position: absolute;
+	left: 430px;
+	top: 1535px;
+}
+
+.footer2 h2{
+	position: absolute;
+	left: 870px;
+	top: 1500px;	
+}
+
+.footer2 h4{
+	position: absolute;
+	left: 870px;
+	top: 1535px;
+}
+
+.footer3 h2{
+	position: absolute;
+	left: 1310px;
+	top: 1500px;	
+}
+
+.footer3 h4{
+	position: absolute;
+	left: 1310px;
+	top: 1535px;
+}
+
+.line{
+	background-color: black;
+	width: 1230px;
+	height: 1px;
+	position: absolute;
+	top: 1700px;
+	left: 330px;
+	opacity: 0.2;
+}
+
+.text{
+	margin-top: 230px;
+	width: 600px;
+	position: absolute;
+	left: 300px;
+}
+
+.text2{
+	position: absolute;
+	left: 1180px;
+	top: 1800px;
+}
+
+.textimg{
+	height: 40px;
+}
+
+.text3{
+	position: absolute;
+	left: 1250px;
+	top: 1900px;
+	line-height: 5px;
+}
+
+footer{
+	position: absolute;
+	top: 2300px;
+	background-color: #222931;
+	width: 1903px;
+	height: 80px;
+}
+
+footer p{
+	color: white;
+	position: absolute;
+	left: 1350px;
+	font-size: 20px;
 }
