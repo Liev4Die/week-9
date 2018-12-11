@@ -150,39 +150,37 @@ li.dropdown {
 }
 
 .footer2{
-	height: 70px;
 	background-color: yellow;
-	padding: 30px;
-	padding-right: 30px;
+	width: 300px;
 	position: absolute;
 	left: 740px;
 	top: 1480px;
+	padding: 15px;
 }
 
 .footer2 img{
 	height: 60px;
 }
 
-.footer2:hover .footer2{
+.footer2:hover{
 	background-color: #222931
 	color: white;
 }
 
 .footer3{
-	height: 70px;
 	background-color: yellow;
-	padding: 30px;
-	padding-right: 30px;
+	width: 300px;
 	position: absolute;
 	left: 1180px;
 	top: 1480px;
+	padding:  15px;
 }
 
 .footer3 img{
 	height: 60px;
 }
 
-.footer3:hover .footer3{
+.footer3:hover{
 	background-color: #222931
 	color: white;
 }
