@@ -2,12 +2,13 @@ body{
 	font-family: 'Archivo', sans-serif;
 	font-size: 16px;
 	line-height: 24px;
-	font-weight: 500px;
+	font-weight: 500;
 }
 
 .top{
-	width: 950PX;
-    margin: 0 auto;
+	position: absolute;
+	left: 476px;
+	z-index: 1;
 }
 
 nav {
@@ -72,36 +73,15 @@ li.dropdown {
 }
 
 .header img{
-	margin-top: 50px;
-}
-
-.banner{
-	width: 1000px;
-	margin: 0 auto;
-}
-
-.banner-1:hover{
-	color: #222931;
-}
-
-.banner-2:hover{
-	
-}
-
-.banner-3:hover{
-	
-}
-
-.banner img{
-	width: 300px;
-	padding-top: 60px;
-	padding-right: 20px;
+	position: absolute;
+	width: 1903px;
+	top: 80px;
 }
 
 .ribbon{
-	margin: 0 auto;
-	width: 100%;
-	;
+	width: 1903px;
+	position: absolute;
+	top: 1000px;
 }
 
 .ribbon h1{
@@ -114,7 +94,7 @@ li.dropdown {
 .ribbon h5{
 	position: absolute;
 	left: 730px;
-	top: 1075px;
+	top: 110px;
 }
 
 .ribbon button{
@@ -132,7 +112,7 @@ li.dropdown {
 	cursor: pointer;
 	position: absolute;
  	left: 1200px;
- 	top: 1065px;
+ 	top: 110px;
 }
 
 #ribbonBTN:hover{
@@ -142,73 +122,69 @@ li.dropdown {
 
 .footerimg{
 	width: 1903px;
-	margin-top: 50px;
+	position: absolute;
+	top: 1240px;
 }
 
-.footerbtn1{
-	height: 70px;
+.footer1{
 	background-color: yellow;
-	padding: 30px;
-	padding-right: 300px;
+	width: 300px;
 	position: absolute;
 	left: 300px;
 	top: 1480px;
+	padding: 15px;
 }
 
-.footerbtn2{
+.footer1 img{
+	height: 60px;
+}
+
+.footer1:hover{
+	background-color: #222931;
+	color: white;
+
+}
+.footer-text{
+	display:inline-block;
+	margin-left:15px;
+}
+
+.footer2{
 	height: 70px;
 	background-color: yellow;
 	padding: 30px;
-	padding-right: 300px;
+	padding-right: 30px;
 	position: absolute;
 	left: 740px;
 	top: 1480px;
 }
 
-.footerbtn3{
+.footer2 img{
+	height: 60px;
+}
+
+.footer2:hover .footer2{
+	background-color: #222931
+	color: white;
+}
+
+.footer3{
 	height: 70px;
 	background-color: yellow;
 	padding: 30px;
-	padding-right: 300px;
+	padding-right: 30px;
 	position: absolute;
 	left: 1180px;
 	top: 1480px;
 }
 
-.footer1 h2{
-	position: absolute;
-	left: 430px;
-	top: 1500px;	
+.footer3 img{
+	height: 60px;
 }
 
-.footer1 h4{
-	position: absolute;
-	left: 430px;
-	top: 1535px;
-}
-
-.footer2 h2{
-	position: absolute;
-	left: 870px;
-	top: 1500px;	
-}
-
-.footer2 h4{
-	position: absolute;
-	left: 870px;
-	top: 1535px;
-}
-
-.footer3 h2{
-	position: absolute;
-	left: 1310px;
-	top: 1500px;	
-}
-
-.footer3 h4{
-	position: absolute;
-	left: 1310px;
-	top: 1535px;
+.footer3:hover .footer3{
+	background-color: #222931
+	color: white;
 }
 
 .line{
@@ -222,9 +198,9 @@ li.dropdown {
 }
 
 .text{
-	margin-top: 230px;
-	width: 600px;
 	position: absolute;
+	width: 400px;
+	top: 1800px;
 	left: 300px;
 }
 
@@ -234,15 +210,15 @@ li.dropdown {
 	top: 1800px;
 }
 
-.textimg{
-	height: 40px;
-}
-
 .text3{
 	position: absolute;
 	left: 1250px;
 	top: 1900px;
 	line-height: 5px;
+}
+
+.textimg{
+	height: 40px;
 }
 
 footer{
@@ -258,4 +234,86 @@ footer p{
 	position: absolute;
 	left: 1350px;
 	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+.banner{
+	position: absolute;
+	left: 160px;
+	top: 700px;
+}
+
+div.banner1{
+    width: 300px;
+    height: 220px;
+    position: absolute;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left:  925px;
+    display: inline-block;
+}
+
+div.banner2 {
+    width: 300px;
+    height: 220px;
+    position: absolute;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 600px;
+    display: inline-block;
+
+}
+div.banner3{
+    width: 300px;
+    height: 220px;
+    position: absolute;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left:  275px;
+    display: inline-block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 100;
+  right: 0;
+  margin-top: 50px;
+  height: 220px;
+  width: 300px;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.dienstenhover:hover .overlay{
+	opacity: 1.5;
+    background-color: rgba(34,41,49,0.8);
+
+}
+.geschiedenishover:hover .overlay{
+    opacity: 1.5;
+    background-color: rgba(34,41,49,0.8);
+}
+.dealshover:hover .overlay{
+    opacity: 1.5;
+    background-color: rgba(34,41,49,0.8);
+}
+
+.textov {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
