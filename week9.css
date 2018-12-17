@@ -234,13 +234,6 @@ footer p{
 	font-size: 20px;
 }
 
-
-
-
-
-
-
-
 .banner{
 	position: absolute;
 	left: 160px;
@@ -314,4 +307,90 @@ div.banner3{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.textpage{
+	display: inline-block;
+	position: absolute;
+	width: 950px;
+	margin: 0 auto;
+	left: 476.5px;
+	top: 660px;
+}
+
+.down{
+	position: absolute;
+	top: 180px;
+}
+
+.word1{
+	color: yellow;
+}
+
+.word1hv{
+	color: white; 
+    font-size: 14px; 
+    background-color: grey; 
+    display: none; 
+    position: absolute; 
+    height: 55; 
+    width: 175px; 
+    padding: 20px; 
+    margin-left: 555px; 
+	
+}
+
+span:hover + .word1hv{ 
+    cursor: pointer; 
+    display: block; 
+} 
+
+
+.word2{
+	color: yellow;
+}
+
+.word2hv{
+	color: white; 
+    font-size: 14px; 
+    background-color: grey; 
+    display: none; 
+    position: absolute; 
+    height: 55; 
+    width: 175px; 
+    padding: 20px; 
+    margin-left: 90px; 
+	
+}
+
+span:hover + .word2hv{ 
+    cursor: pointer; 
+    display: block; 
+}
+
+.word3{
+	color: yellow;
+}
+
+.word3hv{
+	color: white; 
+    font-size: 14px; 
+    background-color: grey; 
+    display: none; 
+    position: absolute; 
+    height: 55; 
+    width: 175px; 
+    padding: 20px; 
+    margin-left: 660px; 
+	
+}
+
+span:hover + .word3hv{ 
+    cursor: pointer; 
+    display: block; 
+}
+
+.home{
+	color: black;
+	text-decoration: none;
 }
